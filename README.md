@@ -35,8 +35,11 @@ Faculty Finder is a simple web application that allows students to search and vi
 ## 📂 Current Project Structure
 
 faculty-finder/
+
 │── index.html
+
 │── style.css
+
 │── script.js
 
 ---
