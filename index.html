@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faculty Finder</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <div class="max-w-4xl mx-auto mt-10 p-6 bg-white shadow-lg rounded-xl">
+    <h1 class="text-3xl font-bold mb-6 text-center text-blue-600">
+      Faculty Finder
+    </h1>
+
+    <!-- Search -->
+    <input
+      id="searchInput"
+      type="text"
+      placeholder="Search faculty by name..."
+      class="w-full p-3 border border-gray-300 rounded-lg mb-4"
+      onkeyup="searchFaculty()"
+    />
+
+    <!-- Filter -->
+    <select
+      id="deptFilter"
+      class="w-full p-3 border border-gray-300 rounded-lg mb-6"
+      onchange="searchFaculty()"
+    >
+      <option value="">All Departments</option>
+      <option value="CSE">CSE</option>
+      <option value="ECE">ECE</option>
+      <option value="EEE">EEE</option>
+      <option value="MECH">MECH</option>
+    </select>
+
+    <!-- Faculty List -->
+    <div id="facultyList" class="grid grid-cols-1 gap-4"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
