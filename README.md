@@ -34,3 +34,27 @@ Faculty Finder is a simple web application that allows students to search and vi
 
 ## 📂 Current Project Structure
 
+faculty-finder/
+│── index.html
+│── style.css
+│── script.js
+
+---
+
+## 🔮 Future Enhancements
+
+- Add a faculty **availability timetable**
+- Add **room location mapping**
+- Add a direct **email/contact button**
+- Add an **admin panel** for updating data
+- Add **dark mode**
+- Connect to a **database backend** for dynamic updates
+
+---
+
+## 📘 Why This Project?
+
+This project demonstrates skills in **frontend development**, **search implementation**, **responsive UI design**, and **Netlify deployment**.  
+It is a practical, real-world app suitable for colleges and universities.
+
+---
